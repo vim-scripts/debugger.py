@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2218
+
+This is a small modification to Seung Woo Shin's XDebug remote debugger.  For further instructions, see here: http://www.vim.org/scripts/script.php?script_id=1152
+
+The only thing I added is the ability to set path mapping in your .vimrc (or wherever)
+
+For example:
+let pathMap="/mnt/hgfs:/home/ethanm/vmfiles, /home/config:/home/ethanm/config"
+would adjust my xdebug paths so that I could now work with a local editor on files running in my VM.
